@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Portfolio</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header img {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      border: 3px solid #fff;
+      margin-bottom: 10px;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #34495e;
+    }
+    nav a {
+      color: white;
+      padding: 12px 18px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: background 0.3s;
+    }
+    nav a:hover {
+      background: #2c3e50;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #2c3e50;
+      border-bottom: 2px solid #bdc3c7;
+      display: inline-block;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+    }
+    .projects, .skills {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      border-radius: 10px;
+      padding: 20px;
+      background: #fff;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+      transition: transform 0.3s, box-shadow 0.3s;
+      text-align: center;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    }
+    .card img {
+      width: 100%;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 12px;
+    }
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+      font-size: 14px;
+    }
+    p {
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://i.pinimg.com/originals/6b/bb/4a/6bbb4a9636e2b653cf3187519a26c50e.jpg" alt="Profile">
+    <h1>Krishnanjali</h1>
+    <p>💻 Student | 🌱 Learner | 🚀 Future Developer</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I am a Computer Science student passionate about <b>web development</b>, <b>coding</b>, and <b>problem-solving</b>.  
+    I enjoy learning new technologies and working on creative projects to sharpen my skills.</p>
+    <img src="https://thumbs.dreamstime.com/b/estudante-icon-vetora-female-person-profile-graduation-avatar-com-placa-do-almofariz-108392151.jpg" alt="Student" style="width:140px; display:block; margin:20px auto;">
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="card"><img src="https://cdn-icons-png.flaticon.com/512/919/919827.png" alt="HTML">HTML & CSS</div>
+      <div class="card"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JS">JavaScript</div>
+      <div class="card"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png" alt="Python">Python</div>
+      <div class="card"><img src="https://cdn-icons-png.flaticon.com/512/6132/6132222.png" alt="C">C Programming</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <img src="https://www.skoolbeep.com/blog/wp-content/uploads/2020/12/WHAT-IS-THE-PURPOSE-OF-A-LIBRARY-MANAGEMENT-SYSTEM-min-768x442.png" alt="Project 1">
+        <h3>Project One</h3>
+        <p>A simple C program to manage books and student records.</p>
+      </div>
+      <div class="card">
+        <img src="https://i1.wp.com/www.freestudentprojects.com/wp-content/uploads/2017/06/Organization-Student-Management-System.jpg?resize=840%2C369" alt="Project 2">
+        <h3>Project Two</h3>
+        <p>A simple C program to calculate student grades.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p><strong>Email:</strong> 234g1a3369@srit.ac.in</p>
+    <p><strong>Location:</strong> ATP, India</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Krishnanjali. All rights reserved.</p>
+  </footer>
+</body>
+</html>
